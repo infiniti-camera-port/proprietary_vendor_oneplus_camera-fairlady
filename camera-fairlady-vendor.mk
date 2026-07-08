@@ -12,6 +12,8 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/cfr_bin/CFR_fairladyExtele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_fairladyExtele.bin \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/cfr_bin/CFR_fairladymain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_fairladymain.bin \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/cfr_bin/CFR_fairladytele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_fairladytele.bin \
+    proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
+    proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/facerestore/InitParams.json:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/InitParams.json \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/config/camera_third_party_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_third_party_feature_config.protobuf \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
@@ -34,6 +36,8 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/dng/ToneCurve_fairladytele.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_fairladytele.txt \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
+    proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
+    proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/camera/vainr_cfg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/vainr_cfg.json \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/lib64/camera/AIAWB_q.odnn:$(TARGET_COPY_OUT_ODM)/lib64/camera/AIAWB_q.odnn \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/lib64/camera/awb_parameter_fairladyfront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_fairladyfront.bin \
@@ -55,8 +59,3 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/lib64/camera/libpdCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam1.bin \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/lib64/camera/libpdCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam2.bin \
     proprietary/vendor/oneplus/camera-fairlady/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin
-
-PRODUCT_PACKAGES += \
-    com.qti.sensor.fairladyfront \
-    com.qti.sensor.fairladymain \
-    com.qti.sensor.fairladytele
